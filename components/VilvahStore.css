@@ -1,0 +1,92 @@
+.vilvah-list {
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-container h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.go-to-cart {
+  background-color: #0b922d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.go-to-cart:hover {
+  background-color: #0b922d;
+  transform: scale(1.05);
+}
+
+.vilvah-list h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); 
+  gap: 20px;
+  justify-items: center;
+}
+
+
+.grid-item {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.vilvah-image {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.grid-item h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.grid-item p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.grid-item button {
+  background-color: #0b922d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.grid-item button:hover {
+  background-color: #0b922d;
+}
